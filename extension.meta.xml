@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension id="ie_compatibility" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>IE Compatibility</name>
+	<description>Adds compatibility for IE7 &amp; IE8 to Symphony CMS.</description>
+    <repo type="github">https://github.com/kanduvisla/ie_compatibility</repo>
+    <types>
+        <type>Interface</type>
+    </types>
+	<authors>
+		<author>
+			<name github="passbe" symphony="passbe">Ben Passmore</name>
+            <email>contact@passbe.com</email>
+            <website>http://www.passbe.com</website>
+		</author>
+		<author>
+			<name github="kanduvisla" symphony="kanduvisla">Giel Berkers</name>
+			<email>info@gielberkers.com</email>
+			<website>http://www.gielberkers.com.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.1" date="2012-09-05" min="2.3"/>
+        <release version="1.0" date="2012-06-26" min="2.3"/>
+	</releases>
+</extension>

@@ -1,0 +1,76 @@
+#nav {
+	background: url(nav.png) repeat-x;
+}
+
+#context {
+	background: #F4F4F4 url(shadow.png) repeat-x;
+}
+
+#contents {
+	border-top: 1px solid #ddd;
+}
+
+#nav li ul {
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+#header h1 a, #session a {
+	color: #e6e6e6;
+}
+
+#header h1 a:hover, #session a:hover {
+	color: #fff;
+}
+
+input[type="submit"], button, .button {
+	background: url(gray-button.png) repeat-x;
+	border: 1px solid #ababa8;
+	color: #666;
+}
+
+button.create, .button.create {
+	background: url(green-button.png) repeat-x;
+	border: 1px solid #648b2d;
+	color: #fff;
+}
+
+fieldset.apply {
+	width: 220px;
+	position: relative;
+}
+
+/*
+fieldet.apply select, fieldset.apply option {
+	width: 172px !important;
+}
+*/
+
+fieldset.apply button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+}
+
+input[type="text"] {
+	height: auto;
+}
+
+ul.tabs li {
+	border: 1px solid #ddd;
+	color: #999;
+	/*border-bottom: none;*/
+	height: 17px;
+}
+
+ul.tabs li.selected, ul.tabs li.invalid.selected, ul.tabs li.invalid.selected:hover {
+	border: 1px solid #ddd;
+	border-bottom: none;
+	color: #666;
+	height: 18px;
+}
+
+tr td.even {
+	background: transparent;
+}
