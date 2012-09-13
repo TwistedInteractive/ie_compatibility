@@ -1,6 +1,6 @@
 # IE Compatibility for Symphony CMS
 
-This extension aims to make Symphony as compatible as possible with Internet Explorer 7 & 8.
+This extension aims to make the backend of Symphony as compatible as possible with Internet Explorer 7 & 8.
 
 It is based on the [HTML5Shiv extension](https://github.com/passbe/HTML5Shiv) created by [Ben Passmore](https://github.com/passbe)
 
